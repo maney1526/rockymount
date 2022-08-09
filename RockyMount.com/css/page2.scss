@@ -1,0 +1,433 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$firstcolor: #EE7402;
+$bordercolor: rgb(147, 147, 147);
+
+
+@mixin btnfirst {
+
+    width: 100%;
+    padding: 16px 0px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+    background-color: black;
+    color: $firstcolor;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+        background-color: $firstcolor;
+        color: black;
+    }
+    
+    
+}
+
+
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+@import 'header';
+
+
+.bigcontanet {
+
+    width: 80%;
+    
+    // background-color: rgba(100, 197, 197, 0.412);
+    margin: 0 auto;
+    margin-top: 22px;
+    display: flex;
+
+    .fa {
+        cursor: pointer;
+    }
+    
+
+
+    
+    .checked {
+        color: orange;
+    }
+
+    .and {
+        transition: 0.3s;
+        
+
+        &:hover{
+        color: orange;
+
+
+        }
+    }
+
+
+    .liftside{
+
+        width: 60%;
+
+        text-align: right;
+
+
+
+        .stars {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            text-align: right;
+            margin: 6px 0px;
+            
+
+            p {
+                margin: 0;
+                padding: 0;
+                word-spacing: 6px;
+                margin-left: 8px;
+                font-weight: 600;
+                font-size: 1.3rem;
+            }
+        }
+
+        .text70 {
+            width: 80%;
+            margin-left: auto;
+            margin-bottom: 12px;
+        }
+
+    }
+
+    .color {
+        height: 400px;
+        width: 100%;
+        
+        display: flex;
+
+        h4 {
+            margin: 0;
+        }
+
+
+        .days {
+            width: 46%;
+
+            p {
+                margin-top: 8px;
+                margin-bottom: 12px;
+                font-size: 1.1rem;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+            
+
+
+            .img55 {
+                width: 76%;
+                margin-left: auto;
+                margin-right: -10px;
+                
+                
+                
+
+
+                img {
+                    width: 28%;
+                    margin: 0;
+                    padding-left: 4px;
+                    margin-right: 5px;
+                    
+                }
+            }
+
+
+        }
+
+        .netanya {
+            width: 58%;
+
+            h3 {
+                color: $firstcolor;
+                 padding: 6px 0px;
+
+            }
+
+            
+
+            .img777 {
+                width: 54%;
+                display: flex;
+                margin: 6px 0px 0px 164px;
+
+                .img7575 {
+                    
+                    border: 1.9px solid rgb(73, 73, 73);
+                    
+
+
+                }
+                
+                
+
+                img {
+                    width: 26%;
+                    margin: 0;
+                    margin-right: 8px;
+                    border: 1.5px solid rgb(72, 72, 72);
+                    cursor: pointer;
+
+
+                }
+
+            }
+
+            .saiz2 {
+                display: flex;
+                justify-content: end;
+
+                margin: 10px 0px;
+                
+
+                p{
+                    padding: 6px;
+                    border: 1.6px solid $bordercolor;
+                    margin-left: 4px;
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+
+                .mad {
+                    font-weight: 700;
+                    border: 1.9px solid rgb(73, 73, 73);
+
+                }
+
+
+                .one555 {
+                    font-weight: 700;
+                    border: 1.9px solid rgb(73, 73, 73);
+                    padding: 6px 8px;
+                }
+                
+
+
+
+            }
+
+
+            .btndiv {
+
+                margin-top: 30px;
+
+
+                .nowbtn {
+
+                    @include  btnfirst;
+                    width:40% ;
+                    font-size: 1.2rem;
+                    padding: 14px 0px;
+
+                }
+
+
+                .secondbtn {
+                    
+                        width: 35%;
+                        padding: 14px 0px;
+                        font-size: 1.2rem;
+                        border: 1px solid $bordercolor;
+                        border-radius: 2px;
+                        background-color: white;
+                        cursor: pointer;
+                        transition: all 0.4s;
+
+                        &:hover {
+                            background-color: rgb(188, 188, 188);
+                            
+                    }
+
+
+                }
+
+
+            }
+
+        }
+
+
+    }
+
+
+    .rightside {
+        width: 40%;
+
+        
+
+
+        .bi {
+            display: block;
+            font-size: 1.5rem;
+            margin-left: 2.6rem;
+            cursor: pointer;
+            
+        }
+
+        .vv {
+
+
+            width: 72%;
+            height: 70%;
+            margin: 0 auto;
+
+            img[src="img/תיק כחול.png"] {
+
+                width: 80%;
+            }
+    
+        }
+
+
+        .img88 {
+            width: 80%;
+            background-color: #EE7402;
+            margin: 0 auto;
+            justify-content: center;
+            margin-left: 80px;
+
+
+            .img222 {
+                border: 1.6px solid rgb(73, 73, 73);
+
+            }
+
+            img {
+                width: 14%;
+                border: 1px solid $bordercolor;
+                margin-top: 6px;
+                cursor: pointer;
+                
+                
+            }
+        }
+        
+
+        
+
+
+
+
+
+    }
+
+
+}
+
+
+
+.products {
+
+    width: 63%;
+
+    margin: 58px auto;
+    text-align: right;
+
+
+
+    .productswater {
+        display: flex;
+
+        align-items: center;
+        justify-content: end;
+
+        p {
+            font-size: 1.5rem;
+
+            .bold {
+                font-weight: 900;
+                font-size: 1.7rem;
+            }
+
+        }
+        .plus {
+            font-weight: 900;
+            padding: 0px 8px;
+        }
+
+        .lain {
+            text-decoration: line-through rgb(101, 7, 7);
+        }
+
+        img {
+            
+            margin: 18px 8px;
+            width: 18%;
+            border: 1px solid $bordercolor;
+
+        }
+        
+        .pop {
+            
+            margin-right: 0;
+            padding: 14px 0px;
+        }
+    
+    }
+
+
+}    
+
+
+.www {
+    width: 63%;
+    
+    margin: 0 auto;
+    text-align: right;
+
+
+    button {
+        width: 20%;
+        padding: 8px 0px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 1px;
+        background-color: rgb(208, 208, 208);
+        cursor: pointer;
+        transition: all 0.4s;
+        margin-top: 8px;
+        margin-left: 8px;
+
+        &:hover {
+            background-color: rgb(188, 188, 188);
+            
+    }
+    }
+}
+
+.you {
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 38px;
+    text-align: right;
+
+
+    iframe {
+        width: 50%;
+
+    }
+    
+}
+
+
+@import 'footer';

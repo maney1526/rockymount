@@ -1,0 +1,152 @@
+
+
+footer {
+    color: white;
+    // background-color: #72c33f;
+    // display: grid;
+    // grid-template-columns: 
+    // repeat(auto-fit, minmax(400px, 1fr));
+    // gap: 0px 0px;
+    // justify-content: space-between;
+    // align-items: center;
+    margin-top: 100px;
+    background-color: black;
+    position: relative;
+
+
+
+    a {
+        color: rgb(255, 255, 255);
+        text-align: end;
+        
+    }
+
+
+    .contnerfooter {
+        width: 80%;
+        
+        margin: 0 auto;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 
+        repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px 50px;
+        justify-content: center;
+        padding: 80px 0px;
+
+
+
+
+        .left {
+            
+            // justify-content: center;
+            text-align: end;
+            margin-right: 50px;
+            
+     
+
+
+            .inputseand {
+
+                margin-top: 15px;
+                
+
+                button {
+                    margin: 0;
+                    margin-right: -4.5px;
+                    padding: 0px 10px;
+                    padding-bottom: 3px;
+                    background-color: #EE7402;
+                    border: none;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1rem;
+                    color: white;
+                    font-weight: bold;
+
+                    &:hover {
+                        background-color: darken($color: $firstcolor, $amount: 8);
+                    }
+                }
+            }
+            
+            input {
+                text-align: end;
+                font-family: 'Poppins', sans-serif;
+                padding: 4px 8px;
+                margin: 0;
+                border: none;
+            }
+
+
+            
+
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            h4 {
+                margin: 0;
+                padding: 0;
+            }
+
+            .footericon {
+                text-indent: 35px;
+                margin-top: 20px;
+                
+            }
+
+            a {
+                font-size: 2rem;
+                color: white;
+            }
+        }
+        
+
+
+
+        .right {
+
+    
+
+            padding: 0px;
+
+            h3 {
+
+                margin: 0;
+                padding: 0;
+                // text-align: right;
+                margin-left: 286px;
+            }
+    
+
+
+        }
+
+        .why {
+
+            display: flex;
+            grid-template-columns: 
+            repeat(auto-fit, minmax(400px, 1fr));
+            gap: 0px 0px;
+            text-align: right;
+            text-indent: 105px;
+            // float: right;
+            
+
+
+            h4 { 
+                margin: 0;
+        
+            }
+        }
+    
+
+
+    }
+
+    
+
+
+}
+
